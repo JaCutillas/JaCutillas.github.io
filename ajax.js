@@ -8,9 +8,12 @@ function loadDocA(fichero,tipo)
         if(http.status === 200) {
             if(tipo == "xml")
             {
-                gestionarFicheroXML(http.responseXML)
+                gestionarFicheroXML(http.responseXML);
             }
             else
-			    gestionarFicheroTXT(http.responseText)
+            {
+                console.log("funciona");
+			    gestionarFicheroTXT(http.responseText);
+            }
 		}})
 }

@@ -1,7 +1,7 @@
 
 function  gestionarFicheroTXT(txt)
 {
-  let lineas = txt.split("-")
+  let lineas = txt.split("\n")
   for(let i of lineas)
     document.querySelector("div:nth-child(2)").innerHTML += "<p>" + i + "</p>"
 }
