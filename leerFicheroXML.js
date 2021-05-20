@@ -3,7 +3,7 @@ function gestionarFicheroXML(xmlDoc){
 	let libros = xmlDoc.querySelectorAll("libro");
 	
 	for (let i = 0; i < libros.length; i++) {
-		capaVacia.innerHTML = "<div id='fila'>" + libros[i].textContent + "</div>";
+		capaVacia.innerHTML += "<div id='fila'>" + libros[i].textContent + "</div>";
 	
 	}
 	
