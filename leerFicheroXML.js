@@ -3,7 +3,7 @@ function gestionarFicheroXML(xmlDoc){
 	let libros = xmlDoc.getElementsByClassName("libro");
 	
 	for (let libro in libros) {
-		console.log(libro.nombre);
+		console.log(libro.getElementById.childrenelements.("nombre"));
 	}
 	
 }
