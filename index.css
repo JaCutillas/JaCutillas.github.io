@@ -3,4 +3,11 @@ main{
  display:flex; 
  flex-direction: column-reverse;
  aling-items: center;
+ justify-content: center;
+}
+.derecho{
+ aling-self: flex-start;
+}
+.izquierdo{
+ aling-self: flex-end;
 }
