@@ -2,8 +2,8 @@ function gestionarFicheroXML(xmlDoc){
 	let capaVacia = document.querySelector("main");
 	let libros = xmlDoc.getElementsByClassName("libro");
 	
-	for (let libro in libros) {
-		console.log(libro.getElementById.childrenelements.("nombre"));
+for (let i = 0; i < libros.length; i++) {
+		capaVacia.innerHTML = "<div id='fila'>" + libros[i].textContent + "</div>";
 	}
 	
 }
