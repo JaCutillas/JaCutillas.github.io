@@ -17,5 +17,5 @@ function  gestionarFicheroTXT(txt)
   }
 }
 
-loadLDocA("test.txt","txt");
+loadDocA("test.txt","txt");
 
