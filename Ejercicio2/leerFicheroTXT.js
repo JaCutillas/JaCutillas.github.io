@@ -7,7 +7,7 @@ function  gestionarFicheroTXT(txt)
   let alineado = "derecho";
   
   for (let i = 0; i < lineas.length; i+=3){
-    if (lineas[i+1] == emisor){
+    if (lineas[i+1] == "Diego"){
       alineado = "derecho";
     }
     else{
