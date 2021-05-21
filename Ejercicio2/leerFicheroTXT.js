@@ -3,11 +3,11 @@ function  gestionarFicheroTXT(txt)
 {
   let capaVacia = document.querySelector("main");
   let lineas = txt.split("-");
-  let emisor = lineas[1];
+  let emisor = lineas[2];
   let alineado = "derecho";
-  console.log(lineas[1]);
+  
   for (let i = 0; i < lineas.length; i+=3){
-    if (lineas[i+1] == "Diego"){
+    if (lineas[i+2] == emisor){
       alineado = "derecho";
     }
     else{
