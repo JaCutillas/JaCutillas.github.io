@@ -13,7 +13,7 @@ function  gestionarFicheroTXT(txt)
     else{
       alineado = "izquierdo";
     }
-    capaVacia.innerHTML += "<div class='"+ alineado + "'>" + lineas[i+2] + "</div>";
+    capaVacia.innerHTML += "<div class='"+ alineado + "'>" + lineas[i+3] + "</div>";
   }
 }
 
