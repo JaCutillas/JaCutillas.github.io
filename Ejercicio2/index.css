@@ -2,12 +2,12 @@
 main{
  display:flex; 
  flex-direction: column-reverse;
- aling-items: center;
+ align-items: center;
  justify-content: center;
 }
 .derecho{
- aling-self: flex-start;
+ align-self: flex-start;
 }
 .izquierdo{
- aling-self: flex-end;
+ align-self: flex-end;
 }
